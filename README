@@ -1,0 +1,48 @@
+NAME
+    Pod::Weaver::Section::Source::DefaultGitHub - Add a SOURCE section
+
+SYNOPSIS
+    In your "weaver.ini":
+
+     [Source::DefaultGitHub]
+
+    If "repository" is not specified in dist.ini, will search for github
+    user/repo name from git config file (".git/config").
+
+    To specify a source repository other than
+    "https://github.com/USER/REPO", in dist.ini:
+
+     [MetaResources]
+     homepage=http://example.com/
+
+DESCRIPTION
+    This section plugin adds a SOURCE section.
+
+SOURCE
+    The development version is on github at
+    <http://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHu
+    b> and may be cloned from
+    <git://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub
+    .git>
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <http://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Sour
+    ce- DefaultGitHub
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
