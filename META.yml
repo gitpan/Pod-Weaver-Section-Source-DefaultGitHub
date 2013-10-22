@@ -24,4 +24,4 @@ requires:
 resources:
   homepage: http://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub
   repository: http://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub
-version: 0.01
+version: 0.02

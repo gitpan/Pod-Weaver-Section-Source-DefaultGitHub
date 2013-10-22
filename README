@@ -18,16 +18,12 @@ SYNOPSIS
 DESCRIPTION
     This section plugin adds a SOURCE section.
 
-SOURCE
-    The development version is on github at
-    <http://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHu
-    b> and may be cloned from
-    <git://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub
-    .git>
-
 HOMEPAGE
     Please visit the project's homepage at
     <http://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub>.
+
+SOURCE
+    Source repository is at HASH(0x31adf40).
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website

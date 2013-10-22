@@ -9,7 +9,7 @@ with 'Pod::Weaver::Role::Section';
 
 use Moose::Autobox;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 sub weave_section {
   my ($self, $document, $input) = @_;
@@ -23,7 +23,7 @@ sub weave_section {
           open my($fh), "<", $file or die "Can't open $file: $!";
           ~~<$fh>;
       };
-      $ct =~ m!github\.com:([^/]+)/()\.git!
+      $ct =~ m!github\.com:([^/]+)/(.+)\.git!
           or die "Can't parse github address in $file";
       $repo_url = "https://github.com/$1/$2";
   }
@@ -75,17 +75,16 @@ dist.ini:
 
 This section plugin adds a SOURCE section.
 
-=head1 SOURCE
-
-The development version is on github at L<http://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub>
-and may be cloned from L<git://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub.git>
-
 =for Pod::Coverage weave_section
 
 =head1 HOMEPAGE
 
 Please visit the project's homepage at
 L<http://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub>.
+
+=head1 SOURCE
+
+Source repository is at L<HASH(0x31adf40)>.
 
 =head1 BUGS
 
