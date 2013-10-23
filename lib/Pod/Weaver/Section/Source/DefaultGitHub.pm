@@ -9,7 +9,7 @@ with 'Pod::Weaver::Role::Section';
 
 use Moose::Autobox;
 
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 sub weave_section {
   my ($self, $document, $input) = @_;
@@ -44,7 +44,7 @@ sub weave_section {
 
 no Moose;
 1;
-# ABSTRACT: Add a SOURCE section
+# ABSTRACT: Add a SOURCE section (repository defaults to GitHub)
 
 __END__
 
@@ -54,7 +54,7 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::Section::Source::DefaultGitHub - Add a SOURCE section
+Pod::Weaver::Section::Source::DefaultGitHub - Add a SOURCE section (repository defaults to GitHub)
 
 =head1 SYNOPSIS
 
@@ -69,22 +69,26 @@ To specify a source repository other than C<https://github.com/USER/REPO>, in
 dist.ini:
 
  [MetaResources]
- homepage=http://example.com/
+ repository=http://example.com/
 
 =head1 DESCRIPTION
 
-This section plugin adds a SOURCE section.
+This section plugin adds a SOURCE section, using C<repository> metadata or (if
+not specified) GitHub.
 
 =for Pod::Coverage weave_section
 
+=head1 SEE ALSO
+
+L<Pod::Weaver::Section::SourceGitHub>
+
 =head1 HOMEPAGE
 
-Please visit the project's homepage at
-L<http://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub>.
+Please visit the project's homepage at L<https://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub>.
 
 =head1 SOURCE
 
-Source repository is at L<HASH(0x31adf40)>.
+Source repository is at L<https://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub>.
 
 =head1 BUGS
 

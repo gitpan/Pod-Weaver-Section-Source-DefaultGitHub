@@ -1,5 +1,5 @@
 {
-   "abstract" : "Add a SOURCE section",
+   "abstract" : "Add a SOURCE section (repository defaults to GitHub)",
    "author" : [
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
@@ -45,12 +45,7 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "homepage" : "http://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub",
-      "repository" : {
-         "url" : "http://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub"
-      }
-   },
-   "version" : "0.02"
+   "resources" : {},
+   "version" : "0.03"
 }
 

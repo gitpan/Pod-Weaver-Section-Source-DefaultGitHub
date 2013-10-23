@@ -1,5 +1,5 @@
 ---
-abstract: 'Add a SOURCE section'
+abstract: 'Add a SOURCE section (repository defaults to GitHub)'
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
 build_requires:
@@ -21,7 +21,5 @@ requires:
   Moose::Autobox: 0
   Pod::Weaver::Role::Section: 0
   perl: 5.010001
-resources:
-  homepage: http://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub
-  repository: http://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub
-version: 0.02
+resources: {}
+version: 0.03
