@@ -4,7 +4,7 @@
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132140",
+   "generated_by" : "Dist::Zilla version 5.001, CPAN::Meta::Converter version 2.132140",
    "license" : [
       "perl_5"
    ],
@@ -45,7 +45,17 @@
       }
    },
    "release_status" : "stable",
-   "resources" : {},
-   "version" : "0.03"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Source-DefaultGitHub"
+      },
+      "homepage" : "https://metacpan.org/release/Pod-Weaver-Section-Source-DefaultGitHub",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub.git",
+         "web" : "https://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitHub"
+      }
+   },
+   "version" : "0.04"
 }
 

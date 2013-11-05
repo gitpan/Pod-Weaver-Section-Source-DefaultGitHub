@@ -9,12 +9,13 @@ with 'Pod::Weaver::Role::Section';
 
 use Moose::Autobox;
 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 sub weave_section {
   my ($self, $document, $input) = @_;
 
   my $repo_url = $input->{distmeta}{resources}{repository};
+  if (ref($repo_url) eq 'HASH') { $repo_url = $repo_url->{web} }
   if (!$repo_url) {
       my $file = ".git/config";
       die "Can't find git config file $file" unless -f $file;
@@ -56,6 +57,10 @@ __END__
 
 Pod::Weaver::Section::Source::DefaultGitHub - Add a SOURCE section (repository defaults to GitHub)
 
+=head1 VERSION
+
+version 0.04
+
 =head1 SYNOPSIS
 
 In your C<weaver.ini>:
@@ -93,8 +98,8 @@ Source repository is at L<https://github.com/sharyanto/perl-Pod-Weaver-Section-S
 =head1 BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Source-
-DefaultGitHub
+https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Source
+-DefaultGitHub
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired

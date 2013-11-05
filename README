@@ -2,6 +2,9 @@ NAME
     Pod::Weaver::Section::Source::DefaultGitHub - Add a SOURCE section
     (repository defaults to GitHub)
 
+VERSION
+    version 0.04
+
 SYNOPSIS
     In your "weaver.ini":
 
@@ -34,8 +37,8 @@ SOURCE
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
-    http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Sour
-    ce- DefaultGitHub
+    https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Sou
+    rce -DefaultGitHub
 
     When submitting a bug or request, please include a test-file or a patch
     to an existing test-file that illustrates the bug or desired feature.
