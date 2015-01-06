@@ -3,7 +3,9 @@ NAME
     (repository defaults to GitHub)
 
 VERSION
-    version 0.04
+    This document describes version 0.05 of
+    Pod::Weaver::Section::Source::DefaultGitHub (from Perl distribution
+    Pod-Weaver-Section-Source-DefaultGitHub), released on 2015-01-07.
 
 SYNOPSIS
     In your "weaver.ini":
@@ -32,22 +34,22 @@ HOMEPAGE
 
 SOURCE
     Source repository is at
-    <https://github.com/sharyanto/perl-Pod-Weaver-Section-Source-DefaultGitH
+    <https://github.com/perlancar/perl-Pod-Weaver-Section-Source-DefaultGitH
     ub>.
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
-    https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-Sou
-    rce -DefaultGitHub
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-Section-So
+    urce-DefaultGitHub>
 
     When submitting a bug or request, please include a test-file or a patch
     to an existing test-file that illustrates the bug or desired feature.
 
 AUTHOR
-    Steven Haryanto <stevenharyanto@gmail.com>
+    perlancar <perlancar@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Steven Haryanto.
+    This software is copyright (c) 2015 by perlancar@cpan.org.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
